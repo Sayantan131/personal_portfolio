@@ -50,3 +50,63 @@ nav ul li a{
 nav ul li a:hover{
     color: red;
 }
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 4px;
+}
+
+.images
+{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images .shape{
+    height: 30rem;
+    top: 20%;
+    right: 60%;
+}
+
+.images .boy{
+    height: 25rem;
+
+}
