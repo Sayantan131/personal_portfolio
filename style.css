@@ -110,3 +110,62 @@ span{
     height: 25rem;
 
 }
+
+
+/**************************************** social icon bar add ******************************************/
+.icon-bar{
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%);
+    z-index:  10;
+    padding-left: 0.1rem;
+}
+
+.icon-bar a{
+    width: 18rem;
+    background:#3b5999 ;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
+    transition: all 0.5s linear ;
+    transform: translateX(-7rem) ;
+}
+
+.icon-bar a:hover{
+    transform: translateX(0);
+}
+
+.icon-bar a .fa-brands{
+    padding-left: 1rem;
+    font-size: 2rem;
+    animation: letszoom 3s linear alternate-reverse infinite;
+}
+
+@keyframes letszoom{
+    from{
+        transform: scale(0.6);
+    }
+    to{
+        transform: scale(0.9);
+    }
+}
+
+.icon-bar .facebook{
+    background: #00aced;
+
+}
+
+.icon-bar .instragram{
+    background: #e4405f;
+}
+
+.icon-bar .youtube{
+    background: #cd201f;
+}
+
+.icon-bar .linkedin{
+    background: #0077b5;
+}
